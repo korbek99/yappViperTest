@@ -10,7 +10,7 @@ struct ViewModelError {
     let title: String
     let message: String
     let icon: UIImage?
-    let code: EcosistemaServiceErrorCode
+    let code: String
     var animated: Bool = true
 }
 
@@ -101,7 +101,7 @@ class MenuViewController: UIViewController, MenuDisplayLogic {
          tableView.bottomAnchor.constraint(equalTo: view.bottomAnchor).isActive = true
      }
     // MARK: - Public
-    func displayConnectionError(viewModel: ViewModelError)
+    func displayConnectionError(viewModel: ViewModelError){
     
     }
     public func startloading(){

@@ -31,4 +31,9 @@ class MenuRouter: NSObject, MenuRoutingLogic, MenuDataPassing {
     func routeToDetails() {
        self.viewController?.navigationController?.popToRootViewController(animated: true)
     }
+    
+    func routeToDetailsMenu() {
+        let VC = MenuDetailsViewController()
+        self.viewController?.navigationController?.pushViewController(VC, animated: true)
+    }
 }
