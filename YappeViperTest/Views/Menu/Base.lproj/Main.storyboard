@@ -24,6 +24,50 @@
             </objects>
             <point key="canvasLocation" x="979.71014492753636" y="65.625"/>
         </scene>
+        <!--Menu Details View Controller-->
+        <scene sceneID="bFo-gZ-gIy">
+            <objects>
+                <viewController id="x4d-6F-3ii" customClass="MenuDetailsViewController" customModule="YappeViperTest" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5H7-mQ-WG6">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="HdX-G5-1s2"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VDf-2w-TMa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1831" y="67"/>
+        </scene>
+        <!--Menu Mapa View Controller-->
+        <scene sceneID="SQn-n8-z6N">
+            <objects>
+                <viewController id="eXb-fF-DEk" customClass="MenuMapaViewController" customModule="YappeViperTest" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="TBa-62-aKy">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="3qM-d7-e8B">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </mapView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="fp3-Vr-aF8"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="3qM-d7-e8B" secondAttribute="bottom" id="0cC-Oa-WDw"/>
+                            <constraint firstItem="3qM-d7-e8B" firstAttribute="trailing" secondItem="fp3-Vr-aF8" secondAttribute="trailing" id="1HP-2i-FN9"/>
+                            <constraint firstItem="3qM-d7-e8B" firstAttribute="top" secondItem="TBa-62-aKy" secondAttribute="top" id="lGS-Co-XTt"/>
+                            <constraint firstItem="3qM-d7-e8B" firstAttribute="leading" secondItem="fp3-Vr-aF8" secondAttribute="leading" id="wSi-ot-tgM"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="mapaKit" destination="3qM-d7-e8B" id="6Qn-Ca-jYV"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cQf-yg-wrc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2623" y="67"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="xRG-fd-76U">
             <objects>

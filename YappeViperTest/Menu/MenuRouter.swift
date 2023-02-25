@@ -9,6 +9,7 @@ import UIKit
 
 @objc protocol MenuRoutingLogic {
     func routeToDetails()
+    func routeToDetailsMenu()
 }
 
 protocol MenuDataPassing {

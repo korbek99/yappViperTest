@@ -5,7 +5,7 @@
 
 
 import UIKit
-
+import MapKit
 
 protocol MenuMapaDisplayLogic: AnyObject {
 
@@ -44,6 +44,7 @@ class MenuMapaViewController: UIViewController, MenuMapaDisplayLogic {
 
     // MARK: - IBOutlets
 
+    @IBOutlet weak var mapaKit: MKMapView!
     // MARK: - Attributes
 
     // MARK: - View lifecycle

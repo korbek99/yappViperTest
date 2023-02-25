@@ -25,4 +25,8 @@ class MenuDetailsRouter: NSObject, MenuDetailsRoutingLogic, MenuDetailsDataPassi
     //func passDataToSomewhere(source: MenuDetailsDataStore, destination: inout SomewhereDataStore) {
     //  destination.name = source.name
     //}
+    func routeToMenuMapa() {
+        let VC = MenuMapaViewController()
+        self.viewController?.navigationController?.pushViewController(VC, animated: true)
+    }
 }
