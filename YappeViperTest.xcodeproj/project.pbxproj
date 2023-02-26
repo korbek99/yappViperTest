@@ -38,6 +38,7 @@
 		57C488A229AAD61000D137B2 /* BodyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C488A129AAD61000D137B2 /* BodyTableViewCell.swift */; };
 		57C488A729AAD63800D137B2 /* FooterTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C488A629AAD63800D137B2 /* FooterTableViewCell.swift */; };
 		57C488AD29AAD85C00D137B2 /* ProductosList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C488AC29AAD85C00D137B2 /* ProductosList.swift */; };
+		57C488B229AAE9CE00D137B2 /* ProductosMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C488B129AAE9CE00D137B2 /* ProductosMenu.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -95,6 +96,7 @@
 		57C488A129AAD61000D137B2 /* BodyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyTableViewCell.swift; sourceTree = "<group>"; };
 		57C488A629AAD63800D137B2 /* FooterTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterTableViewCell.swift; sourceTree = "<group>"; };
 		57C488AC29AAD85C00D137B2 /* ProductosList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductosList.swift; sourceTree = "<group>"; };
+		57C488B129AAE9CE00D137B2 /* ProductosMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductosMenu.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -257,6 +259,7 @@
 			isa = PBXGroup;
 			children = (
 				57C488AC29AAD85C00D137B2 /* ProductosList.swift */,
+				57C488B129AAE9CE00D137B2 /* ProductosMenu.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -404,6 +407,7 @@
 				57C4883029AAC16800D137B2 /* SceneDelegate.swift in Sources */,
 				57C488A229AAD61000D137B2 /* BodyTableViewCell.swift in Sources */,
 				57C488A729AAD63800D137B2 /* FooterTableViewCell.swift in Sources */,
+				57C488B229AAE9CE00D137B2 /* ProductosMenu.swift in Sources */,
 				57C4889529AAD13A00D137B2 /* MenuDetailsRouter.swift in Sources */,
 				57C4886629AAC1F200D137B2 /* MenuPresenter.swift in Sources */,
 				57C4888429AAD0CB00D137B2 /* MenuMapaPresenter.swift in Sources */,

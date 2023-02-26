@@ -18,6 +18,7 @@ protocol MenuDisplayLogic: AnyObject {
      func startloading()
      func stoploading()
      func displayConnectionError(viewModel: ViewModelError)
+     func displayViewTextsInfo(listaProductos: [Product])
     
 }
 
@@ -28,23 +29,6 @@ class MenuViewController: UIViewController, MenuDisplayLogic {
 
     // MARK: - Object lifecycle
 
-//    init() {
-//        super.init(
-//            nibName: "MenuViewController",
-//            bundle: Utils.bundle(forClass: MenuViewController.classForCoder())
-//        )
-//        setup()
-//    }
-//
-//     init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: Bundle?) {
-//        super.init(nibName: nibNameOrNil, bundle: nibBundleOrNil)
-//        setup()
-//    }
-//
-//    required init?(coder aDecoder: NSCoder) {
-//        super.init(coder: aDecoder)
-//        setup()
-//    }
     // MARK: - init
     init() {
         super.init(nibName: nil, bundle: nil)
@@ -83,7 +67,7 @@ class MenuViewController: UIViewController, MenuDisplayLogic {
     }()
 
     // MARK: - Attributes
-
+    public var listProducts: [ProductosMenu] = []
     // MARK: - View lifecycle
 
     override func viewDidLoad() {
@@ -120,10 +104,24 @@ class MenuViewController: UIViewController, MenuDisplayLogic {
     // MARK: - Actions
 
     // MARK: - MenuDisplayLogic
+    
+    func displayViewTextsInfo(listaProductos: [Product]) {
+        for items in listaProductos {
+            listProducts.append(ProductosMenu(id: items.id,
+                                              name: items.name,
+                                              desc: items.desc,
+                                              price: items.price,
+                                              image: items.image,
+                                              page: items.page,
+                                              latitude: items.latitude,
+                                              longitude: items.longitude))
+        }
+        self.tableView.reloadData()
+    }
 }
 extension MenuViewController:  UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 3
+        return listProducts.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
