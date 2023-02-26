@@ -7,6 +7,7 @@
 import UIKit
 
 @objc protocol MenuDetailsRoutingLogic {
+    func routeToMenuMapa(latitud:String ,lontitud:String ,nombreString:String )
 }
 
 protocol MenuDetailsDataPassing {
@@ -25,8 +26,12 @@ class MenuDetailsRouter: NSObject, MenuDetailsRoutingLogic, MenuDetailsDataPassi
     //func passDataToSomewhere(source: MenuDetailsDataStore, destination: inout SomewhereDataStore) {
     //  destination.name = source.name
     //}
-    func routeToMenuMapa() {
-        let VC = MenuMapaViewController()
-        self.viewController?.navigationController?.pushViewController(VC, animated: true)
+    func routeToMenuMapa(latitud:String ,lontitud:String ,nombreString:String ) {
+        let ViewController = MenuMapaViewController()
+        ViewController.latitudMap = latitud
+        ViewController.lontitudMap = lontitud
+        ViewController.lugarString = nombreString
+        self.viewController?.navigationController?.pushViewController(ViewController, animated: true)
     }
+
 }
