@@ -18,7 +18,9 @@ protocol MenuDisplayLogic: AnyObject {
      func startloading()
      func stoploading()
      func displayConnectionError(viewModel: ViewModelError)
-     func displayViewTextsInfo(listaProductos: [Product])
+     func displayViewTextsInfo(listaProductos: [ProductosMenu])
+     func displayConnectionError(viewModel: APIErrorViewModel)
+     func displayDiscountNotFoundError(viewModel: APIErrorViewModel)
     
 }
 
@@ -102,10 +104,12 @@ class MenuViewController: UIViewController, MenuDisplayLogic {
         self.dismiss(animated: false, completion: nil)
     }
     // MARK: - Actions
-
+    @objc func retryFetchData(sender: AnyObject) {
+        //goToMapaView()
+    }
     // MARK: - MenuDisplayLogic
     
-    func displayViewTextsInfo(listaProductos: [Product]) {
+    func displayViewTextsInfo(listaProductos: [ProductosMenu]) {
         for items in listaProductos {
             listProducts.append(ProductosMenu(id: items.id,
                                               name: items.name,
@@ -117,6 +121,40 @@ class MenuViewController: UIViewController, MenuDisplayLogic {
                                               longitude: items.longitude))
         }
         self.tableView.reloadData()
+    }
+    
+    func displayDiscountNotFoundError(viewModel: APIErrorViewModel) {
+//        errorView = FullScreenMessageError(
+//            withTitle: viewModel.title,
+//            message: viewModel.message,
+//            image: BciAsset.sinConexion.image,
+//            buttonsTitles: "UNDERSTOOD"],
+//            buttonsActions: [#selector(retryFetchData)],
+//            buttonsStyles: [UIButton.ButtonTypes.basic],
+//            target: self,
+//            showHeader: true
+//        )
+//        errorView?.addAccesibilityIdentifierForAllElements(
+//            withIdentifier: "DescuentosListViewController.FetchDiscountsDiscountNotFound")
+//        view.addSubview(errorView!)
+//        view.layoutIfNeeded()
+    }
+    func displayConnectionError(viewModel: APIErrorViewModel) {
+//        errorView = FullScreenMessageError(
+//            withTitle: viewModel.title,
+//            message: viewModel.message,
+//            image: BciAsset.sinConexion.image,
+//            buttonsTitles: "RETRY", "CANCEL"],
+//            buttonsActions: [#selector(retryFetchData), #selector(closeView)],
+//            buttonsStyles: [UIButton.ButtonTypes.basic, UIButton.ButtonTypes.cancel],
+//            target: self,
+//            showHeader: true
+//        )
+//        errorView?.addAccesibilityIdentifierForAllElements(
+//            withIdentifier: "SearchDescuentosViewController.FetchAccountsNoInternetError"
+//        )
+//        view.addSubview(errorView!)
+//        view.layoutIfNeeded()
     }
 }
 extension MenuViewController:  UITableViewDelegate, UITableViewDataSource {

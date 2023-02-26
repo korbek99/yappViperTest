@@ -39,6 +39,9 @@
 		57C488A729AAD63800D137B2 /* FooterTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C488A629AAD63800D137B2 /* FooterTableViewCell.swift */; };
 		57C488AD29AAD85C00D137B2 /* ProductosList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C488AC29AAD85C00D137B2 /* ProductosList.swift */; };
 		57C488B229AAE9CE00D137B2 /* ProductosMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C488B129AAE9CE00D137B2 /* ProductosMenu.swift */; };
+		57C488B729AAED5400D137B2 /* APIMenuErrorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C488B629AAED5400D137B2 /* APIMenuErrorModel.swift */; };
+		57C488BF29AAF10F00D137B2 /* APIEndpointModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C488BE29AAF10F00D137B2 /* APIEndpointModel.swift */; };
+		57C488C429AAF14B00D137B2 /* endpointsDev.plist in Resources */ = {isa = PBXBuildFile; fileRef = 57C488C329AAF14B00D137B2 /* endpointsDev.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -97,6 +100,9 @@
 		57C488A629AAD63800D137B2 /* FooterTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterTableViewCell.swift; sourceTree = "<group>"; };
 		57C488AC29AAD85C00D137B2 /* ProductosList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductosList.swift; sourceTree = "<group>"; };
 		57C488B129AAE9CE00D137B2 /* ProductosMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductosMenu.swift; sourceTree = "<group>"; };
+		57C488B629AAED5400D137B2 /* APIMenuErrorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIMenuErrorModel.swift; sourceTree = "<group>"; };
+		57C488BE29AAF10F00D137B2 /* APIEndpointModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIEndpointModel.swift; sourceTree = "<group>"; };
+		57C488C329AAF14B00D137B2 /* endpointsDev.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = endpointsDev.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +164,7 @@
 				57C4883629AAC17500D137B2 /* Assets.xcassets */,
 				57C4883829AAC17500D137B2 /* LaunchScreen.storyboard */,
 				57C4883B29AAC17500D137B2 /* Info.plist */,
+				57C488C329AAF14B00D137B2 /* endpointsDev.plist */,
 			);
 			path = YappeViperTest;
 			sourceTree = "<group>";
@@ -260,6 +267,8 @@
 			children = (
 				57C488AC29AAD85C00D137B2 /* ProductosList.swift */,
 				57C488B129AAE9CE00D137B2 /* ProductosMenu.swift */,
+				57C488B629AAED5400D137B2 /* APIMenuErrorModel.swift */,
+				57C488BE29AAF10F00D137B2 /* APIEndpointModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -370,6 +379,7 @@
 				57C4883A29AAC17500D137B2 /* LaunchScreen.storyboard in Resources */,
 				57C4883729AAC17500D137B2 /* Assets.xcassets in Resources */,
 				57C4883529AAC16800D137B2 /* Main.storyboard in Resources */,
+				57C488C429AAF14B00D137B2 /* endpointsDev.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -401,6 +411,7 @@
 				57C4882E29AAC16800D137B2 /* AppDelegate.swift in Sources */,
 				57C4886729AAC1F200D137B2 /* MenuWorker.swift in Sources */,
 				57C4889429AAD13A00D137B2 /* MenuDetailsWorker.swift in Sources */,
+				57C488B729AAED5400D137B2 /* APIMenuErrorModel.swift in Sources */,
 				57C4888829AAD0CB00D137B2 /* MenuMapaViewController.swift in Sources */,
 				57C4887229AAC6D600D137B2 /* MenuTableViewCell.swift in Sources */,
 				57C4888529AAD0CB00D137B2 /* MenuMapaWorker.swift in Sources */,
@@ -412,6 +423,7 @@
 				57C4886629AAC1F200D137B2 /* MenuPresenter.swift in Sources */,
 				57C4888429AAD0CB00D137B2 /* MenuMapaPresenter.swift in Sources */,
 				57C4889629AAD13A00D137B2 /* MenuDetailsModels.swift in Sources */,
+				57C488BF29AAF10F00D137B2 /* APIEndpointModel.swift in Sources */,
 				57C4888729AAD0CB00D137B2 /* MenuMapaModels.swift in Sources */,
 				57C4886929AAC1F200D137B2 /* MenuModels.swift in Sources */,
 				57C4886829AAC1F200D137B2 /* MenuRouter.swift in Sources */,

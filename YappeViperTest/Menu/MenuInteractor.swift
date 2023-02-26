@@ -9,7 +9,7 @@
 //import AppKitBCI
 
 protocol MenuBusinessLogic {
-
+    func getInfoProductosMenuInteractor()
 }
 
 protocol MenuDataStore {
@@ -22,16 +22,13 @@ class MenuInteractor: MenuBusinessLogic, MenuDataStore {
 
     var presenter: MenuPresentationLogic?
     var worker: MenuWorkerProtocol?
-   // var analyticsService: GoogleAnalyticsInteractor?
 
     // MARK: - MenuDataStore
-//
-//    init(
-//        analyticsService: GoogleAnalyticsInteractor = GoogleAnalyticsServiceInteractor()
-//        ) {
-//        worker = MenuWorker()
-//        self.analyticsService = analyticsService
-//    }
 
     // MARK: - MenuBusinessLogic
+    
+    func getInfoProductosMenuInteractor() {
+        
+       // presenter.presentViewInfoMenuInfo()
+    }
 }
