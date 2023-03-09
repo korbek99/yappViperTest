@@ -120,7 +120,7 @@ class MenuTableViewCell: UITableViewCell {
         
         lblName.text = model.name
         lbldescrip.text = model.title
-        lblPrice.text =  model.precio
+        lblPrice.text =  "$" + model.precio
     }
     
     override func awakeFromNib() {

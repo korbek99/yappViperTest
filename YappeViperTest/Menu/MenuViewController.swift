@@ -135,37 +135,10 @@ class MenuViewController: UIViewController, MenuDisplayLogic {
     }
     
     func displayDiscountNotFoundError(viewModel: APIErrorViewModel) {
-//        errorView = FullScreenMessageError(
-//            withTitle: viewModel.title,
-//            message: viewModel.message,
-//            image: BciAsset.sinConexion.image,
-//            buttonsTitles: "UNDERSTOOD"],
-//            buttonsActions: [#selector(retryFetchData)],
-//            buttonsStyles: [UIButton.ButtonTypes.basic],
-//            target: self,
-//            showHeader: true
-//        )
-//        errorView?.addAccesibilityIdentifierForAllElements(
-//            withIdentifier: "DescuentosListViewController.FetchDiscountsDiscountNotFound")
-//        view.addSubview(errorView!)
-//        view.layoutIfNeeded()
+
     }
     func displayConnectionError(viewModel: APIErrorViewModel) {
-//        errorView = FullScreenMessageError(
-//            withTitle: viewModel.title,
-//            message: viewModel.message,
-//            image: BciAsset.sinConexion.image,
-//            buttonsTitles: "RETRY", "CANCEL"],
-//            buttonsActions: [#selector(retryFetchData), #selector(closeView)],
-//            buttonsStyles: [UIButton.ButtonTypes.basic, UIButton.ButtonTypes.cancel],
-//            target: self,
-//            showHeader: true
-//        )
-//        errorView?.addAccesibilityIdentifierForAllElements(
-//            withIdentifier: "SearchDescuentosViewController.FetchAccountsNoInternetError"
-//        )
-//        view.addSubview(errorView!)
-//        view.layoutIfNeeded()
+
     }
 }
 extension MenuViewController:  UITableViewDelegate, UITableViewDataSource {
@@ -182,7 +155,7 @@ extension MenuViewController:  UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        self.router?.routeToDetailsMenu(nombre: listProducts[indexPath.row].name, image: String(listProducts[indexPath.row].image), decrip: listProducts[indexPath.row].desc, precio: "$" + String(listProducts[indexPath.row].price), latitud: listProducts[indexPath.row].latitude, lontitud: listProducts[indexPath.row].longitude)
+        self.router?.routeToDetailsMenu(nombre: listProducts[indexPath.row].name, image: String(listProducts[indexPath.row].image), decrip: listProducts[indexPath.row].desc, precio: String(listProducts[indexPath.row].price), latitud: listProducts[indexPath.row].latitude, lontitud: listProducts[indexPath.row].longitude)
     }
 }
 
