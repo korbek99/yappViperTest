@@ -1,0 +1,518 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "E34C4F95-E9C2-4064-8EF0-58C8A0380B0D"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C2FE2968-0C2A-437A-8288-E3575EDA4396"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "YappeViperTest/Menu/MenuInteractor.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "getInfoProductosMenuInteractor()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3442B77A-59DD-4B58-AD95-2793E39B6487"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "YappeViperTest/Menu/MenuViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "80"
+            endingLineNumber = "80"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "62E075D3-187B-4113-9CB8-F183C09932E2"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "YappeViperTest/Menu/MenuInteractor.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "getInfoProductosMenuInteractor()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "62E075D3-187B-4113-9CB8-F183C09932E2 - 93be4d202db368f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "YappeViperTest.MenuInteractor.getInfoProductosMenuInteractor() -&gt; ()"
+                  moduleName = "YappeViperTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/korbek100/Documents/Desarrollos%20IOS/YappeViperTest/YappeViperTest/Menu/MenuInteractor.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "43"
+                  endingLineNumber = "43"
+                  offsetFromSymbolStart = "75">
+               </Location>
+               <Location
+                  uuid = "62E075D3-187B-4113-9CB8-F183C09932E2 - 93be4d202db368f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "YappeViperTest.MenuInteractor.getInfoProductosMenuInteractor() -&gt; ()"
+                  moduleName = "YappeViperTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/korbek100/Documents/Desarrollos%20IOS/YappeViperTest/YappeViperTest/Menu/MenuInteractor.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "43"
+                  endingLineNumber = "43"
+                  offsetFromSymbolStart = "195">
+               </Location>
+               <Location
+                  uuid = "62E075D3-187B-4113-9CB8-F183C09932E2 - e1f3549748c6eb1f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Swift.Array&lt;YappeViperTest.ProductosList&gt;&gt;, Swift.Optional&lt;Swift.String&gt;) -&gt; () in YappeViperTest.MenuInteractor.getInfoProductosMenuInteractor() -&gt; ()"
+                  moduleName = "YappeViperTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/korbek100/Documents/Desarrollos%20IOS/YappeViperTest/YappeViperTest/Menu/MenuInteractor.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45"
+                  offsetFromSymbolStart = "196">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "622B888A-BACD-4896-B3B8-770647D038D5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "YappeViperTest/Menu/MenuInteractor.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
+            landmarkName = "getInfoProductosMenuInteractor()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "88ABE039-5012-445D-81FE-767B39BB31C6"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "YappeViperTest/Menu/MenuWorker.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "getProductosMenuEntity(completionHandler:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4220A23B-BA7A-473A-BC76-3E82E49BE539"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "YappeViperTest/Menu/MenuWorker.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "getProductosMenuEntity(completionHandler:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "4220A23B-BA7A-473A-BC76-3E82E49BE539 - d8672a4dbaada50b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "YappeViperTest.MenuWorker.getProductosMenuEntity(completionHandler: (Swift.Optional&lt;Swift.Array&lt;YappeViperTest.ProductosList&gt;&gt;, Swift.Optional&lt;Swift.String&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "YappeViperTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/korbek100/Documents/Desarrollos%20IOS/YappeViperTest/YappeViperTest/Menu/MenuWorker.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "37">
+               </Location>
+               <Location
+                  uuid = "4220A23B-BA7A-473A-BC76-3E82E49BE539 - b58097f4714ee53d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Foundation.Data) -&gt; () in YappeViperTest.MenuWorker.getProductosMenuEntity(completionHandler: (Swift.Optional&lt;Swift.Array&lt;YappeViperTest.ProductosList&gt;&gt;, Swift.Optional&lt;Swift.String&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "YappeViperTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/korbek100/Documents/Desarrollos%20IOS/YappeViperTest/YappeViperTest/Menu/MenuWorker.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "43">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3CA52C96-7161-49FA-972F-AB6EBD183765"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "YappeViperTest/Menu/MenuInteractor.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "51"
+            endingLineNumber = "51"
+            landmarkName = "getInfoProductosMenuInteractor()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "55411E5A-0286-4319-851F-AAA5F0FB895E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "YappeViperTest/Menu/MenuInteractor.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "getInfoProductosMenuInteractorMVVM()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E232A775-7E8B-4D8F-A02E-CAF054B2456F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "YappeViperTest/API/webServicesMenu.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "getArticles(completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "94270A17-4AEA-43C3-84B6-52211C6BC036"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "YappeViperTest/Menu/MenuInteractor.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "getInfoProductosMenuInteractorMVVM()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0390A909-B2A7-4005-83F3-EDF6815A99C3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "YappeViperTest/Menu/MenuInteractor.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "getInfoProductosMenuInteractorMVVM()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "447DCF2C-43C4-437A-93B9-7FE1FBD11DAA"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "YappeViperTest/API/webServicesMenu.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "getArticles(completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B6FC18EC-31E2-4F36-B623-BD8FCB8419F2"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "YappeViperTest/API/webServicesMenu.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "getArticles(completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "B6FC18EC-31E2-4F36-B623-BD8FCB8419F2 - 6faa925a6914823a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in YappeViperTest.webServicesMenu.getArticles(completion: (Swift.Optional&lt;Swift.Array&lt;YappeViperTest.Product&gt;&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "YappeViperTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/korbek100/Documents/Desarrollos%20IOS/YappeViperTest/YappeViperTest/API/webServicesMenu.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "326">
+               </Location>
+               <Location
+                  uuid = "B6FC18EC-31E2-4F36-B623-BD8FCB8419F2 - 6faa925a6914823a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in YappeViperTest.webServicesMenu.getArticles(completion: (Swift.Optional&lt;Swift.Array&lt;YappeViperTest.Product&gt;&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "YappeViperTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/korbek100/Documents/Desarrollos%20IOS/YappeViperTest/YappeViperTest/API/webServicesMenu.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "828">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3251472F-2974-40D7-B10C-1F2D30515078"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "YappeViperTest/Menu/MenuInteractor.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "getInfoProductosMenuInteractorMVVM()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EB939F21-5A09-42B4-873B-0DF80DB7C4CA"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "YappeViperTest/Menu/MenuInteractor.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "getInfoProductosMenuInteractorMVVM()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "25924C10-6222-4EB9-91D5-F3B9495BA01A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "YappeViperTest/Menu/MenuPresenter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "presentViewInfoMenuInfo(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6687AD00-A34C-4C6F-8664-88A1AF4C6EF4"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "YappeViperTest/Menu/MenuViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "115"
+            endingLineNumber = "115"
+            landmarkName = "displayViewTextsInfo(listaProductos:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5D6E3961-281A-486A-A4D2-D394C57FD6DF"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "YappeViperTest/Menu/MenuViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "174"
+            endingLineNumber = "174"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D6A238A9-2106-4357-9AAF-0949B85BF765"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "YappeViperTest/Menu/cells/MenuTableViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "110"
+            endingLineNumber = "110"
+            landmarkName = "configure(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "D6A238A9-2106-4357-9AAF-0949B85BF765 - 983c709b026e1827"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "YappeViperTest.MenuTableViewCell.configure(YappeViperTest.MenuTableViewCellModel) -&gt; ()"
+                  moduleName = "YappeViperTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/korbek100/Documents/Desarrollos%20IOS/YappeViperTest/YappeViperTest/Menu/cells/MenuTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "110"
+                  endingLineNumber = "110"
+                  offsetFromSymbolStart = "169">
+               </Location>
+               <Location
+                  uuid = "D6A238A9-2106-4357-9AAF-0949B85BF765 - 983c709b026e1827"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "YappeViperTest.MenuTableViewCell.configure(YappeViperTest.MenuTableViewCellModel) -&gt; ()"
+                  moduleName = "YappeViperTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/korbek100/Documents/Desarrollos%20IOS/YappeViperTest/YappeViperTest/Menu/cells/MenuTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "110"
+                  endingLineNumber = "110"
+                  offsetFromSymbolStart = "213">
+               </Location>
+               <Location
+                  uuid = "D6A238A9-2106-4357-9AAF-0949B85BF765 - 449143b98c53f58"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in YappeViperTest.MenuTableViewCell.configure(YappeViperTest.MenuTableViewCellModel) -&gt; ()"
+                  moduleName = "YappeViperTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/korbek100/Documents/Desarrollos%20IOS/YappeViperTest/YappeViperTest/Menu/cells/MenuTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "111"
+                  endingLineNumber = "111"
+                  offsetFromSymbolStart = "182">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7D512238-CB0E-49C6-971E-58A6480D5B0A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "YappeViperTest/Menu/MenuViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "126"
+            endingLineNumber = "126"
+            landmarkName = "displayViewTextsInfo(listaProductos:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C5DD1B32-E577-4C17-901B-6669893E25E9"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "YappeViperTest/Menu/MenuViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "179"
+            endingLineNumber = "179"
+            landmarkName = "tableView(_:didSelectRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4104F450-3A9C-45FE-979E-43702DE34351"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "YappeViperTest/MenuMapa/MenuMapaViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "73"
+            endingLineNumber = "73"
+            landmarkName = "loadMap()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

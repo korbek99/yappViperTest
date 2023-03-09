@@ -55,7 +55,7 @@ class MenuMapaViewController: UIViewController, MenuMapaDisplayLogic {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        setupMapUI()
+       // setupMapUI()
         loadMap()
     }
 
@@ -70,6 +70,10 @@ class MenuMapaViewController: UIViewController, MenuMapaDisplayLogic {
         mapaKit.bottomAnchor.constraint(equalTo: view.bottomAnchor).isActive = true
     }
     private  func loadMap(){
+        print(lontitudMap!)
+        print(latitudMap!)
+        print(lugarString!)
+        
         let lon = Double(lontitudMap!)
         let lat = Double(latitudMap!)
         let mapi = MKPointAnnotation()

@@ -2,8 +2,7 @@
 //  MenuViewController.swift
 //  YappeViperTest
 //
-//import Commons
-//import AppKitBCI
+
 import UIKit
 
 struct ViewModelError {
@@ -25,7 +24,7 @@ protocol MenuDisplayLogic: AnyObject {
 }
 
 class MenuViewController: UIViewController, MenuDisplayLogic {
-
+    
     var interactor: MenuBusinessLogic?
     var router: (NSObjectProtocol & MenuRoutingLogic & MenuDataPassing)?
 
@@ -70,12 +69,15 @@ class MenuViewController: UIViewController, MenuDisplayLogic {
 
     // MARK: - Attributes
     public var listProducts: [ProductosMenu] = []
+   
     // MARK: - View lifecycle
 
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = UIColor.white
         setUpTableView()
+        startloading()
+        interactor?.getInfoProductosMenuInteractorMVVM()
     }
 
     // MARK: - Private
@@ -120,7 +122,10 @@ class MenuViewController: UIViewController, MenuDisplayLogic {
                                               latitude: items.latitude,
                                               longitude: items.longitude))
         }
-        self.tableView.reloadData()
+        DispatchQueue.main.async { [self] in
+            self.tableView.reloadData()
+            stoploading()
+        }
     }
     
     func displayDiscountNotFoundError(viewModel: APIErrorViewModel) {
@@ -158,14 +163,20 @@ class MenuViewController: UIViewController, MenuDisplayLogic {
     }
 }
 extension MenuViewController:  UITableViewDelegate, UITableViewDataSource {
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return listProducts.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-       
-        let cell = UITableViewCell()
+        
+        guard let cell = tableView.dequeueReusableCell(withIdentifier: "MenuTableViewCell") as? MenuTableViewCell else { return UITableViewCell() }        
+        cell.configure(MenuTableViewCellModel(name: listProducts[indexPath.row].name, title: listProducts[indexPath.row].desc, precio: String(listProducts[indexPath.row].price), imagen: listProducts[indexPath.row].image))
         return cell
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        self.router?.routeToDetailsMenu(nombre: listProducts[indexPath.row].name, image: String(listProducts[indexPath.row].image), decrip: listProducts[indexPath.row].desc, precio: "$" + String(listProducts[indexPath.row].price), latitud: listProducts[indexPath.row].latitude, lontitud: listProducts[indexPath.row].longitude)
     }
 }
 

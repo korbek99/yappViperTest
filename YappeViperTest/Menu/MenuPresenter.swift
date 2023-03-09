@@ -10,14 +10,19 @@ protocol MenuPresentationLogic {
     func presentViewInfoMenuInfo(_ response: [ProductosMenu])
     func presentServiceError(response: APIErrorResponse)
     func presentConnectionError()
+    func presentGoToProductos()
 }
 
 class MenuPresenter: MenuPresentationLogic {
 
     weak var viewController: MenuDisplayLogic?
+    var interactor: MenuBusinessLogic?
 
     // MARK: - MenuPresentationLogic
     
+    func presentGoToProductos() {
+        interactor?.getInfoProductosMenuInteractor()
+    }
     func presentViewInfoMenuInfo(_ response: [ProductosMenu]) {
         viewController?.displayViewTextsInfo(listaProductos: response)
     }

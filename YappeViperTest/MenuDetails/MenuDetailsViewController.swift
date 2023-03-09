@@ -78,6 +78,7 @@ class MenuDetailsViewController: UIViewController, MenuDetailsDisplayLogic {
     override func viewDidLoad() {
         super.viewDidLoad()
         setUpButtonMapa()
+        setUpTableView()
         setUpTableViewregister()
     }
 

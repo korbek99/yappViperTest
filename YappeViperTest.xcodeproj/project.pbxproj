@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		082DAF5D3CCA8056DC1B8C7E /* Pods_YappeViperTest_YappeViperTestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5A7E678EE78AD2336A790DC /* Pods_YappeViperTest_YappeViperTestUITests.framework */; };
+		0C6FB2E874A287DD0FDD5A23 /* Pods_YappeViperTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED3813E1C731F87A5482513B /* Pods_YappeViperTestTests.framework */; };
 		57C4882E29AAC16800D137B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C4882D29AAC16800D137B2 /* AppDelegate.swift */; };
 		57C4883029AAC16800D137B2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C4882F29AAC16800D137B2 /* SceneDelegate.swift */; };
 		57C4883229AAC16800D137B2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C4883129AAC16800D137B2 /* ViewController.swift */; };
@@ -42,6 +44,10 @@
 		57C488B729AAED5400D137B2 /* APIMenuErrorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C488B629AAED5400D137B2 /* APIMenuErrorModel.swift */; };
 		57C488BF29AAF10F00D137B2 /* APIEndpointModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C488BE29AAF10F00D137B2 /* APIEndpointModel.swift */; };
 		57C488C429AAF14B00D137B2 /* endpointsDev.plist in Resources */ = {isa = PBXBuildFile; fileRef = 57C488C329AAF14B00D137B2 /* endpointsDev.plist */; };
+		57C488CA29AAF83800D137B2 /* MenuAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C488C929AAF83800D137B2 /* MenuAPI.swift */; };
+		57C488DA29AAFCF800D137B2 /* webServicesMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C488D929AAFCF800D137B2 /* webServicesMenu.swift */; };
+		57C488DF29AEC6F200D137B2 /* ApiWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C488DE29AEC6F200D137B2 /* ApiWrapper.swift */; };
+		BE07EBCDFD7A82619D79A0D0 /* Pods_YappeViperTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3630499D014B8C916976C574 /* Pods_YappeViperTest.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +68,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0D2139150E93CCB3787DFE4D /* Pods-YappeViperTest-YappeViperTestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YappeViperTest-YappeViperTestUITests.debug.xcconfig"; path = "Target Support Files/Pods-YappeViperTest-YappeViperTestUITests/Pods-YappeViperTest-YappeViperTestUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3630499D014B8C916976C574 /* Pods_YappeViperTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YappeViperTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4835A76EB392A9602E4D091E /* Pods-YappeViperTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YappeViperTest.release.xcconfig"; path = "Target Support Files/Pods-YappeViperTest/Pods-YappeViperTest.release.xcconfig"; sourceTree = "<group>"; };
+		5778DD708584D821DA4B3B5A /* Pods-YappeViperTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YappeViperTestTests.release.xcconfig"; path = "Target Support Files/Pods-YappeViperTestTests/Pods-YappeViperTestTests.release.xcconfig"; sourceTree = "<group>"; };
 		57C4882A29AAC16800D137B2 /* YappeViperTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YappeViperTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		57C4882D29AAC16800D137B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		57C4882F29AAC16800D137B2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -103,6 +113,14 @@
 		57C488B629AAED5400D137B2 /* APIMenuErrorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIMenuErrorModel.swift; sourceTree = "<group>"; };
 		57C488BE29AAF10F00D137B2 /* APIEndpointModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIEndpointModel.swift; sourceTree = "<group>"; };
 		57C488C329AAF14B00D137B2 /* endpointsDev.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = endpointsDev.plist; sourceTree = "<group>"; };
+		57C488C929AAF83800D137B2 /* MenuAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuAPI.swift; sourceTree = "<group>"; };
+		57C488D929AAFCF800D137B2 /* webServicesMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = webServicesMenu.swift; sourceTree = "<group>"; };
+		57C488DE29AEC6F200D137B2 /* ApiWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiWrapper.swift; sourceTree = "<group>"; };
+		5C8155681A7D1939334B3EE0 /* Pods-YappeViperTest-YappeViperTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YappeViperTest-YappeViperTestUITests.release.xcconfig"; path = "Target Support Files/Pods-YappeViperTest-YappeViperTestUITests/Pods-YappeViperTest-YappeViperTestUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B5A7E678EE78AD2336A790DC /* Pods_YappeViperTest_YappeViperTestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YappeViperTest_YappeViperTestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6E7366518D676D41091F5B4 /* Pods-YappeViperTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YappeViperTestTests.debug.xcconfig"; path = "Target Support Files/Pods-YappeViperTestTests/Pods-YappeViperTestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		ED3813E1C731F87A5482513B /* Pods_YappeViperTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YappeViperTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F86D117DAB07F131E6E5ECC1 /* Pods-YappeViperTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YappeViperTest.debug.xcconfig"; path = "Target Support Files/Pods-YappeViperTest/Pods-YappeViperTest.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +128,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE07EBCDFD7A82619D79A0D0 /* Pods_YappeViperTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -117,6 +136,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C6FB2E874A287DD0FDD5A23 /* Pods_YappeViperTestTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -124,6 +144,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				082DAF5D3CCA8056DC1B8C7E /* Pods_YappeViperTest_YappeViperTestUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,6 +158,8 @@
 				57C4884329AAC17500D137B2 /* YappeViperTestTests */,
 				57C4884E29AAC17600D137B2 /* YappeViperTestUITests */,
 				57C4882B29AAC16800D137B2 /* Products */,
+				5A7D099E97D14D5DC37E3807 /* Pods */,
+				7CADA354375D4AE70456D557 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -153,6 +176,7 @@
 		57C4882C29AAC16800D137B2 /* YappeViperTest */ = {
 			isa = PBXGroup;
 			children = (
+				57C488C829AAF80F00D137B2 /* API */,
 				57C488AB29AAD7A000D137B2 /* Model */,
 				57C4887C29AAD07500D137B2 /* MenuMapa */,
 				57C4887B29AAD06800D137B2 /* MenuDetails */,
@@ -273,6 +297,39 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		57C488C829AAF80F00D137B2 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				57C488C929AAF83800D137B2 /* MenuAPI.swift */,
+				57C488D929AAFCF800D137B2 /* webServicesMenu.swift */,
+				57C488DE29AEC6F200D137B2 /* ApiWrapper.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		5A7D099E97D14D5DC37E3807 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F86D117DAB07F131E6E5ECC1 /* Pods-YappeViperTest.debug.xcconfig */,
+				4835A76EB392A9602E4D091E /* Pods-YappeViperTest.release.xcconfig */,
+				0D2139150E93CCB3787DFE4D /* Pods-YappeViperTest-YappeViperTestUITests.debug.xcconfig */,
+				5C8155681A7D1939334B3EE0 /* Pods-YappeViperTest-YappeViperTestUITests.release.xcconfig */,
+				D6E7366518D676D41091F5B4 /* Pods-YappeViperTestTests.debug.xcconfig */,
+				5778DD708584D821DA4B3B5A /* Pods-YappeViperTestTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7CADA354375D4AE70456D557 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3630499D014B8C916976C574 /* Pods_YappeViperTest.framework */,
+				B5A7E678EE78AD2336A790DC /* Pods_YappeViperTest_YappeViperTestUITests.framework */,
+				ED3813E1C731F87A5482513B /* Pods_YappeViperTestTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -280,9 +337,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 57C4885429AAC17600D137B2 /* Build configuration list for PBXNativeTarget "YappeViperTest" */;
 			buildPhases = (
+				E9A613E9A4E973BCD640FC9A /* [CP] Check Pods Manifest.lock */,
+				9DFD75871EE7915CA691F546 /* [CP] Prepare Artifacts */,
 				57C4882629AAC16800D137B2 /* Sources */,
 				57C4882729AAC16800D137B2 /* Frameworks */,
 				57C4882829AAC16800D137B2 /* Resources */,
+				51C1970D5742B6F10C19EE41 /* [CP] Embed Pods Frameworks */,
+				83EB7FF917191A37BACE51F5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -297,6 +358,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 57C4885729AAC17600D137B2 /* Build configuration list for PBXNativeTarget "YappeViperTestTests" */;
 			buildPhases = (
+				8EB2801D80DDBDF27BD255E9 /* [CP] Check Pods Manifest.lock */,
 				57C4883C29AAC17500D137B2 /* Sources */,
 				57C4883D29AAC17500D137B2 /* Frameworks */,
 				57C4883E29AAC17500D137B2 /* Resources */,
@@ -315,9 +377,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 57C4885A29AAC17600D137B2 /* Build configuration list for PBXNativeTarget "YappeViperTestUITests" */;
 			buildPhases = (
+				BA2D4C1071391C2D81C8135B /* [CP] Check Pods Manifest.lock */,
+				32ABDBA0CC2AA3D8A5A5F913 /* [CP] Prepare Artifacts */,
 				57C4884729AAC17600D137B2 /* Sources */,
 				57C4884829AAC17600D137B2 /* Frameworks */,
 				57C4884929AAC17600D137B2 /* Resources */,
+				33196E085C039CB22D79AB83 /* [CP] Embed Pods Frameworks */,
+				183726464438E3A569DB7DAA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -399,6 +465,177 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		183726464438E3A569DB7DAA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YappeViperTest-YappeViperTestUITests/Pods-YappeViperTest-YappeViperTestUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YappeViperTest-YappeViperTestUITests/Pods-YappeViperTest-YappeViperTestUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YappeViperTest-YappeViperTestUITests/Pods-YappeViperTest-YappeViperTestUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		32ABDBA0CC2AA3D8A5A5F913 /* [CP] Prepare Artifacts */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YappeViperTest-YappeViperTestUITests/Pods-YappeViperTest-YappeViperTestUITests-artifacts-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Prepare Artifacts";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YappeViperTest-YappeViperTestUITests/Pods-YappeViperTest-YappeViperTestUITests-artifacts-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YappeViperTest-YappeViperTestUITests/Pods-YappeViperTest-YappeViperTestUITests-artifacts.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		33196E085C039CB22D79AB83 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YappeViperTest-YappeViperTestUITests/Pods-YappeViperTest-YappeViperTestUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YappeViperTest-YappeViperTestUITests/Pods-YappeViperTest-YappeViperTestUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YappeViperTest-YappeViperTestUITests/Pods-YappeViperTest-YappeViperTestUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		51C1970D5742B6F10C19EE41 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YappeViperTest/Pods-YappeViperTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YappeViperTest/Pods-YappeViperTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YappeViperTest/Pods-YappeViperTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		83EB7FF917191A37BACE51F5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YappeViperTest/Pods-YappeViperTest-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YappeViperTest/Pods-YappeViperTest-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YappeViperTest/Pods-YappeViperTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8EB2801D80DDBDF27BD255E9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YappeViperTestTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9DFD75871EE7915CA691F546 /* [CP] Prepare Artifacts */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YappeViperTest/Pods-YappeViperTest-artifacts-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Prepare Artifacts";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YappeViperTest/Pods-YappeViperTest-artifacts-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YappeViperTest/Pods-YappeViperTest-artifacts.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA2D4C1071391C2D81C8135B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YappeViperTest-YappeViperTestUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E9A613E9A4E973BCD640FC9A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YappeViperTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		57C4882629AAC16800D137B2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -406,9 +643,11 @@
 			files = (
 				57C4886B29AAC1F200D137B2 /* MenuInteractor.swift in Sources */,
 				57C4883229AAC16800D137B2 /* ViewController.swift in Sources */,
+				57C488DA29AAFCF800D137B2 /* webServicesMenu.swift in Sources */,
 				57C4889829AAD13A00D137B2 /* MenuDetailsInteractor.swift in Sources */,
 				57C4888929AAD0CB00D137B2 /* MenuMapaInteractor.swift in Sources */,
 				57C4882E29AAC16800D137B2 /* AppDelegate.swift in Sources */,
+				57C488DF29AEC6F200D137B2 /* ApiWrapper.swift in Sources */,
 				57C4886729AAC1F200D137B2 /* MenuWorker.swift in Sources */,
 				57C4889429AAD13A00D137B2 /* MenuDetailsWorker.swift in Sources */,
 				57C488B729AAED5400D137B2 /* APIMenuErrorModel.swift in Sources */,
@@ -423,6 +662,7 @@
 				57C4886629AAC1F200D137B2 /* MenuPresenter.swift in Sources */,
 				57C4888429AAD0CB00D137B2 /* MenuMapaPresenter.swift in Sources */,
 				57C4889629AAD13A00D137B2 /* MenuDetailsModels.swift in Sources */,
+				57C488CA29AAF83800D137B2 /* MenuAPI.swift in Sources */,
 				57C488BF29AAF10F00D137B2 /* APIEndpointModel.swift in Sources */,
 				57C4888729AAD0CB00D137B2 /* MenuMapaModels.swift in Sources */,
 				57C4886929AAC1F200D137B2 /* MenuModels.swift in Sources */,
@@ -605,6 +845,7 @@
 		};
 		57C4885529AAC17600D137B2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F86D117DAB07F131E6E5ECC1 /* Pods-YappeViperTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -624,6 +865,7 @@
 		};
 		57C4885629AAC17600D137B2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4835A76EB392A9602E4D091E /* Pods-YappeViperTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -643,6 +885,7 @@
 		};
 		57C4885829AAC17600D137B2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6E7366518D676D41091F5B4 /* Pods-YappeViperTestTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -665,6 +908,7 @@
 		};
 		57C4885929AAC17600D137B2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5778DD708584D821DA4B3B5A /* Pods-YappeViperTestTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -687,6 +931,7 @@
 		};
 		57C4885B29AAC17600D137B2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D2139150E93CCB3787DFE4D /* Pods-YappeViperTest-YappeViperTestUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -707,6 +952,7 @@
 		};
 		57C4885C29AAC17600D137B2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C8155681A7D1939334B3EE0 /* Pods-YappeViperTest-YappeViperTestUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

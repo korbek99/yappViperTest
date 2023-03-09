@@ -106,14 +106,18 @@ class MenuTableViewCell: UITableViewCell {
     }
     
     func configure(_ model: MenuTableViewCellModel) {
-        if let imageURL = URL(string: model.imagen) {
-       
-                let data = try? Data(contentsOf: imageURL)
-                if let data = data {
-                    let image = UIImage(data: data)
-                    imgMenu.image =  image
-                }
+        
+        DispatchQueue.main.async { [self] in
+            if let imageURL = URL(string: model.imagen) {
+           
+                    let data = try? Data(contentsOf: imageURL)
+                    if let data = data {
+                        let image = UIImage(data: data)
+                        imgMenu.image =  image
+                    }
+            }
         }
+        
         lblName.text = model.name
         lbldescrip.text = model.title
         lblPrice.text =  model.precio
