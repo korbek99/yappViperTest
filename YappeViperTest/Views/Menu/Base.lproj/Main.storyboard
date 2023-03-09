@@ -54,14 +54,10 @@
                         <viewLayoutGuide key="safeArea" id="fp3-Vr-aF8"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstAttribute="bottom" secondItem="3qM-d7-e8B" secondAttribute="bottom" id="0cC-Oa-WDw"/>
-                            <constraint firstItem="3qM-d7-e8B" firstAttribute="top" secondItem="TBa-62-aKy" secondAttribute="top" id="0zg-2M-Eid"/>
-                            <constraint firstItem="3qM-d7-e8B" firstAttribute="trailing" secondItem="fp3-Vr-aF8" secondAttribute="trailing" id="1HP-2i-FN9"/>
-                            <constraint firstAttribute="bottom" secondItem="3qM-d7-e8B" secondAttribute="bottom" id="cBB-iQ-agE"/>
-                            <constraint firstItem="3qM-d7-e8B" firstAttribute="trailing" secondItem="fp3-Vr-aF8" secondAttribute="trailing" id="gmz-Br-fON"/>
-                            <constraint firstItem="3qM-d7-e8B" firstAttribute="top" secondItem="TBa-62-aKy" secondAttribute="top" id="lGS-Co-XTt"/>
-                            <constraint firstItem="3qM-d7-e8B" firstAttribute="leading" secondItem="fp3-Vr-aF8" secondAttribute="leading" id="tSc-Yh-Bls"/>
-                            <constraint firstItem="3qM-d7-e8B" firstAttribute="leading" secondItem="fp3-Vr-aF8" secondAttribute="leading" id="wSi-ot-tgM"/>
+                            <constraint firstItem="3qM-d7-e8B" firstAttribute="centerX" secondItem="TBa-62-aKy" secondAttribute="centerX" id="KXw-ah-syy"/>
+                            <constraint firstItem="3qM-d7-e8B" firstAttribute="leading" secondItem="fp3-Vr-aF8" secondAttribute="leading" id="ZFz-cw-qXJ"/>
+                            <constraint firstItem="3qM-d7-e8B" firstAttribute="top" secondItem="TBa-62-aKy" secondAttribute="topMargin" constant="-44" id="cdP-wA-7jc"/>
+                            <constraint firstItem="3qM-d7-e8B" firstAttribute="centerY" secondItem="TBa-62-aKy" secondAttribute="centerY" id="wBU-Dv-tvZ"/>
                         </constraints>
                     </view>
                     <connections>
