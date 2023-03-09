@@ -37,10 +37,6 @@ class MenuInteractor: MenuBusinessLogic, MenuDataStore {
                     productosLista.append(ProductosMenu(id: item.id, name: item.name, desc: item.desc, price: item.price, image: item.image, page: item.page, latitude: item.latitude, longitude: item.longitude))
                 }
                 presenter?.presentViewInfoMenuInfo(productosLista)
-//                self.menuListVM = MenuListViewModel(productosMenu: articles)
-//                DispatchQueue.main.async {
-//                    self.tableView.reloadData()
-//                }
             }
         }
     }

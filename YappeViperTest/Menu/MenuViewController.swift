@@ -90,7 +90,10 @@ class MenuViewController: UIViewController, MenuDisplayLogic {
      }
     // MARK: - Public
     func displayConnectionError(viewModel: ViewModelError){
-    
+        let alertError = UIAlertController(title: nil, message: viewModel.message, preferredStyle: .alert)
+        let okAction = UIAlertAction (title: "ACEPTAR", style: UIAlertAction.Style.cancel, handler: nil)
+        alertError.addAction(okAction)
+        self.present(alertError, animated: true, completion: nil)
     }
     public func startloading(){
         let alert = UIAlertController(title: nil, message: "Please wait...", preferredStyle: .alert)
@@ -107,6 +110,9 @@ class MenuViewController: UIViewController, MenuDisplayLogic {
     }
     // MARK: - Actions
     @objc func retryFetchData(sender: AnyObject) {
+        //goToMapaView()
+    }
+    @objc func closeAlertError(sender: AnyObject) {
         //goToMapaView()
     }
     // MARK: - MenuDisplayLogic

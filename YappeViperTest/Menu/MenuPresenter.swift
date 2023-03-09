@@ -24,7 +24,19 @@ class MenuPresenter: MenuPresentationLogic {
         interactor?.getInfoProductosMenuInteractor()
     }
     func presentViewInfoMenuInfo(_ response: [ProductosMenu]) {
-        viewController?.displayViewTextsInfo(listaProductos: response)
+        if response.isEmpty{
+            let viewModel = APIErrorViewModel(
+                title: "hubo un error",
+                message: "ocurrio un error de servicio",
+                icon: "icp_service_problem",
+                code: "service_problem",
+                animated: true
+            )
+            viewController?.displayConnectionError(viewModel: viewModel)
+        }else{
+            viewController?.displayViewTextsInfo(listaProductos: response)
+        }
+        
     }
     func presentServiceError(response: APIErrorResponse) {
         
