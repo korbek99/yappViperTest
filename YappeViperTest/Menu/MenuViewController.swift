@@ -25,6 +25,12 @@ protocol MenuDisplayLogic: AnyObject {
 
 class MenuViewController: UIViewController, MenuDisplayLogic {
     
+    var listMenus = [ProductosMenu]()
+    var searching = false
+    var searchedMenu =  [ProductosMenu]()
+    
+    let searchController = UISearchController(searchResultsController: nil)
+    
     var interactor: MenuBusinessLogic?
     var router: (NSObjectProtocol & MenuRoutingLogic & MenuDataPassing)?
 
@@ -78,9 +84,26 @@ class MenuViewController: UIViewController, MenuDisplayLogic {
         setUpTableView()
         startloading()
         interactor?.getInfoProductosMenuInteractorMVVM()
+        configureSearchController()
     }
 
     // MARK: - Private
+    
+    func configureSearchController(){
+        
+        searchController.loadViewIfNeeded()
+        searchController.searchResultsUpdater = self
+        searchController.searchBar.delegate = self
+        searchController.obscuresBackgroundDuringPresentation = false
+        searchController.searchBar.enablesReturnKeyAutomatically  = false
+        searchController.searchBar.returnKeyType = UIReturnKeyType.done
+        self.navigationItem.searchController = searchController
+        self.navigationItem.hidesSearchBarWhenScrolling = false
+        definesPresentationContext = true
+        searchController.searchBar.placeholder = "Buscar por nombre"
+        
+    }
+    
     private func setUpTableView() {
          view.addSubview(tableView)
          tableView.topAnchor.constraint(equalTo: view.topAnchor).isActive = true
@@ -141,21 +164,65 @@ class MenuViewController: UIViewController, MenuDisplayLogic {
 
     }
 }
-extension MenuViewController:  UITableViewDelegate, UITableViewDataSource {
+extension MenuViewController:  UITableViewDelegate, UITableViewDataSource, UISearchResultsUpdating, UISearchBarDelegate  {
+    func updateSearchResults(for searchController: UISearchController) {
+        let searchText = searchController.searchBar.text!
+        if !searchText.isEmpty {
+            searching = true
+            searchedMenu.removeAll()
+            for item in listProducts {
+                if item.name.lowercased().contains(searchText.lowercased())
+                {
+                    searchedMenu.append(item)
+                }
+            }
+        }else{
+            searching = false
+            searchedMenu.removeAll()
+            searchedMenu = listProducts
+        }
+        
+        tableView.reloadData()
+    }
+    
+    func searchBarCancelButtonClicked(_ searchBar: UISearchBar)
+    {
+        searching = false
+        searchedMenu.removeAll()
+        tableView.reloadData()
+    }
+    
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return listProducts.count
+        if searching{
+            return searchedMenu.count
+        }else{
+            return listProducts.count
+        }
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
-        guard let cell = tableView.dequeueReusableCell(withIdentifier: "MenuTableViewCell") as? MenuTableViewCell else { return UITableViewCell() }        
-        cell.configure(MenuTableViewCellModel(name: listProducts[indexPath.row].name, title: listProducts[indexPath.row].desc, precio: String(listProducts[indexPath.row].price), imagen: listProducts[indexPath.row].image))
+        guard let cell = tableView.dequeueReusableCell(withIdentifier: "MenuTableViewCell") as? MenuTableViewCell else { return UITableViewCell() }
+        
+        if searching {
+            cell.configure(MenuTableViewCellModel(name: searchedMenu[indexPath.row].name, title: searchedMenu[indexPath.row].desc, precio: String(searchedMenu[indexPath.row].price), imagen: searchedMenu[indexPath.row].image))
+        } else {
+            cell.configure(MenuTableViewCellModel(name: listProducts[indexPath.row].name, title: listProducts[indexPath.row].desc, precio: String(listProducts[indexPath.row].price), imagen: listProducts[indexPath.row].image))
+        }
+               
+       
         return cell
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        self.router?.routeToDetailsMenu(nombre: listProducts[indexPath.row].name, image: String(listProducts[indexPath.row].image), decrip: listProducts[indexPath.row].desc, precio: String(listProducts[indexPath.row].price), latitud: listProducts[indexPath.row].latitude, lontitud: listProducts[indexPath.row].longitude)
+        
+        if searching {
+            self.router?.routeToDetailsMenu(nombre: searchedMenu[indexPath.row].name, image: String(searchedMenu[indexPath.row].image), decrip: searchedMenu[indexPath.row].desc, precio: String(searchedMenu[indexPath.row].price), latitud: searchedMenu[indexPath.row].latitude, lontitud: searchedMenu[indexPath.row].longitude)
+        } else {
+            self.router?.routeToDetailsMenu(nombre: listProducts[indexPath.row].name, image: String(listProducts[indexPath.row].image), decrip: listProducts[indexPath.row].desc, precio: String(listProducts[indexPath.row].price), latitud: listProducts[indexPath.row].latitude, lontitud: listProducts[indexPath.row].longitude)
+        }
+        
     }
 }
 
